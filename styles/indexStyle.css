@@ -1,0 +1,15 @@
+
+.navbar {
+    background-color: aquamarine;
+    height: 70%;
+}
+.d-flex {
+    button {
+        border-color: blue;
+        color: blue;
+    }
+    button:hover {
+
+        background-color: blue;
+    }
+}
