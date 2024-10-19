@@ -1,54 +1,36 @@
-
 body {
-    background-color: #f8f9fa; /* Svetlé pozadie */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
+    background-color: #f8f9fa; /* Svetlé pozadie pre celú stránku */
+    font-family: Arial, sans-serif; /* Písmo pre celú stránku */
+}
+
+.navbar {
+    margin-bottom: 30px; /* Medzera pod navigačným panelom */
 }
 
 .login-container {
-    background-color: #fff; /* Biele pozadie pre login box */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
+    background-color: #fff; /* Biele pozadie pre formulár */
+    border-radius: 8px; /* Zaoblené rohy */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Jemný tieň pre formulár */
+    padding: 30px; /* Padding vo vnútri formulára */
 }
 
 .form-label {
-    font-weight: bold; /* Tučný text pre labely */
-}
-
-.form-control {
-    border: 1px solid #ddd; /* Jemný border pre input */
-    border-radius: 0;
-    padding: 10px;
-}
-
-.input-group-text {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-left: none;
-    cursor: pointer;
+    font-weight: bold; /* Tučné písmo pre štítky formulára */
 }
 
 .btn-dark {
-    background-color: #000; /* Čierne tlačidlo */
-    color: #fff; /* Biely text */
-    padding: 10px;
-    border-radius: 0;
+    background-color: #343a40; /* Tmavošedé pozadie pre tlačidlo */
+    border: none; /* Bez okrajov */
 }
 
 .btn-dark:hover {
-    background-color: #333; /* Tmavšie pri hover */
+    background-color: #495057; /* Svetlejší odtieň pri hover efektoch */
 }
 
 .text-center a {
-    color: #000;
+    color: #007bff; /* Farba odkazov */
 }
 
-.text-center hr {
-    margin-top: 20px;
+.text-center a:hover {
+    text-decoration: underline; /* Podčiarknutie pri hover efektoch */
 }

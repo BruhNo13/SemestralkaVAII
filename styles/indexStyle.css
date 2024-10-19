@@ -1,44 +1,49 @@
+body {
+    background-color: #f8f9fa; /* Svetlé pozadie pre celú stránku */
+    font-family: Arial, sans-serif; /* Písmo pre celú stránku */
+}
 
 .navbar {
-    background-color: black;
+    background-color: #343a40; /* Tmavé pozadie pre navigačný panel */
 }
-.navbar-nav .nav-link {
-    color: gray;
-    margin-right: 15px;
-}
-.navbar-nav .nav-link.active {
-    font-weight: bold;
-    color: lightgray;
-}
-.navbar-nav .nav-link:hover {
-    color: white;
-}
-.navbar .nav-link.red {
-    color: red;
-}
-.navbar-nav .hover-underline:hover {
-    text-decoration: underline;
-}
-.search-bar input {
-    color: white;
-    background-color: white;
-    border: none;
-    width: 250px;
 
+.navbar-brand {
+    color: white; /* Farba textu pre názov značky */
 }
-.search-bar input::placeholder {
-    color: white;
+
+.navbar-nav .nav-link {
+    color: gray; /* Farba textu pre odkazy */
+    margin-right: 15px; /* Medzera medzi odkazmi */
 }
+
+.navbar-nav .nav-link:hover {
+    color: white; /* Zmena farby odkazu pri hover */
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold; /* Tučné písmo pre aktívny odkaz */
+    color: lightgray; /* Svetlá farba pre aktívny odkaz */
+}
+
+.search-bar {
+    display: flex; /* Flexbox pre vyhľadávací panel */
+}
+
+.search-bar input {
+    border: 1px solid #ccc; /* Rámik pre vyhľadávacie pole */
+}
+
 .search-bar input:focus {
-    outline: none;
+    outline: none; /* Odstrániť okraj pri zameraní */
+    border-color: #007bff; /* Zmena farby rámika pri zameraní */
 }
+
 .navbar-icons img {
-    width: 24px; /* Adjust the size of the icons */
+    width: 24px; /* Veľkosť ikon */
     height: 24px;
-    margin-left: 0px;
-    margin-right: -10px;
-    /*padding: 0px;*/
+    margin-left: 10px; /* Medzera medzi ikonami */
 }
-.user-icon {
-    margin-left: 100px;
+
+.navbar-icons .nav-link {
+    padding: 0; /* Zrušiť padding pre ikony */
 }
