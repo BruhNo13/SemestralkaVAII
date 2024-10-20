@@ -1,0 +1,70 @@
+body {
+    background-color: ghostwhite;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: gray;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: lightgray;
+}
+
+.search-bar {
+    display: flex;
+    width: 400px;
+}
+
+.search-bar input {
+    border: 1px solid antiquewhite;
+}
+
+.search-bar input:focus {
+    outline: none;
+    border-color: white;
+}
+
+.navbar-icons img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.navbar-icons .nav-link {
+    padding: 0;
+}
+
+
+
+
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.product-card {
+    width: calc(33% - 10px); /* Zmenši šírku, aby si udržal medzery */
+    margin-bottom: 20px; /* Medzera medzi kartami */
+    text-align: center; /* Centrovanie textu v kartách */
+}
+.product-card img {
+    width: 100%; /* Zabezpečí, že obrázky budú šírku karty */
+    height: auto; /* Automatická výška pre zachovanie pomeru strán */
+}

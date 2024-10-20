@@ -1,49 +1,86 @@
 body {
-    background-color: #f8f9fa; /* Svetlé pozadie pre celú stránku */
-    font-family: Arial, sans-serif; /* Písmo pre celú stránku */
+    background-color: ghostwhite;
+    font-family: Arial, sans-serif;
 }
 
 .navbar {
-    background-color: #343a40; /* Tmavé pozadie pre navigačný panel */
+    background-color: #343a40;
 }
 
 .navbar-brand {
-    color: white; /* Farba textu pre názov značky */
+    color: white;
 }
 
 .navbar-nav .nav-link {
-    color: gray; /* Farba textu pre odkazy */
-    margin-right: 15px; /* Medzera medzi odkazmi */
+    color: gray;
+    margin-right: 15px;
 }
 
 .navbar-nav .nav-link:hover {
-    color: white; /* Zmena farby odkazu pri hover */
+    color: white;
 }
 
 .navbar-nav .nav-link.active {
-    font-weight: bold; /* Tučné písmo pre aktívny odkaz */
-    color: lightgray; /* Svetlá farba pre aktívny odkaz */
+    font-weight: bold;
+    color: lightgray;
 }
 
 .search-bar {
-    display: flex; /* Flexbox pre vyhľadávací panel */
+    display: flex;
+    width: 400px;
 }
 
 .search-bar input {
-    border: 1px solid #ccc; /* Rámik pre vyhľadávacie pole */
+    border: 1px solid antiquewhite;
 }
 
 .search-bar input:focus {
-    outline: none; /* Odstrániť okraj pri zameraní */
-    border-color: #007bff; /* Zmena farby rámika pri zameraní */
+    outline: none;
+    border-color: white;
 }
 
 .navbar-icons img {
-    width: 24px; /* Veľkosť ikon */
+    width: 24px;
     height: 24px;
-    margin-left: 10px; /* Medzera medzi ikonami */
+    margin-left: 10px;
 }
 
 .navbar-icons .nav-link {
-    padding: 0; /* Zrušiť padding pre ikony */
+    padding: 0;
+}
+
+/*.image-container {*/
+/*    display: flex;*/
+/*    overflow-x: auto; !* Povoliť horizontálny scroll *!*/
+/*    padding: 20px 0; !* Padding nad a pod obrázkami *!*/
+/*}*/
+/*.image-container img {*/
+/*    flex: 0 0 auto; !* Zabraňuje obrázkom, aby sa prispôsobovali *!*/
+/*    width: 100%; !* Šírka obrázkov *!*/
+/*    max-width: 400px; !* Maximálna šírka obrázkov *!*/
+/*    margin-right: 10px; !* Medzera medzi obrázkami *!*/
+/*}*/
+
+.carousel-item img {
+    flex: 0 0 auto;
+    width: 100%; /* Šírka obrázkov na 100% */
+    height: 800px; /* Automatická výška, zachovanie pomeru strán */
+    object-fit: cover;
+}
+
+
+.footer {
+    padding: 20px 0;
+}
+
+.footer h5 {
+    margin-bottom: 15px; /* Pridá medzeru pod nadpisy */
+}
+
+.footer a {
+    color: lightgray; /* Svetlá farba pre odkazy */
+}
+
+.footer a:hover {
+    color: white; /* Zmena farby odkazu pri hover */
 }

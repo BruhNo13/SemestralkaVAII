@@ -10,51 +10,70 @@
 
 </head>
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">FOOTSHOP</a>
+        <a class="navbar-brand" href="index.html">FAKESHEIN</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMen" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         MEN
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Tričká</a></li>
-                        <li><a class="dropdown-item" href="#">Mikiny</a></li>
-                        <li><a class="dropdown-item" href="#">Bundy</a></li>
-                        <li><a class="dropdown-item" href="#">Nohavice</a></li>
-                        <li><a class="dropdown-item" href="#">Topánky</a></li>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMen">
+                        <li><a class="dropdown-item" href="#">T-shirts</a></li>
+                        <li><a class="dropdown-item" href="#">Hoodies</a></li>
+                        <li><a class="dropdown-item" href="#">Jackets and Coats</a></li>
+                        <li><a class="dropdown-item" href="#">Pants</a></li>
+                        <li><a class="dropdown-item" href="#">Shoes</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownWomen" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        WOMEN
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownWomen">
+                        <li><a class="dropdown-item" href="#">T-shirts</a></li>
+                        <li><a class="dropdown-item" href="#">Hoodies</a></li>
+                        <li><a class="dropdown-item" href="#">Jackets and Coats</a></li>
+                        <li><a class="dropdown-item" href="#">Pants</a></li>
+                        <li><a class="dropdown-item" href="#">Shoes</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownKids" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        KIDS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownKids">
+                        <li><a class="dropdown-item" href="#">T-shirts</a></li>
+                        <li><a class="dropdown-item" href="#">Hoodies</a></li>
+                        <li><a class="dropdown-item" href="#">Jackets and Coats</a></li>
+                        <li><a class="dropdown-item" href="#">Pants</a></li>
+                        <li><a class="dropdown-item" href="#">Shoes</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">WOMEN</a>
+                    <a class="nav-link" href="pages/ShoesPage.html">SHOES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">KIDS</a>
+                    <a class="nav-link" href="#">CLOTHING</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">TOPÁNKY</a>
+                    <a class="nav-link" href="#">ACCESSORIES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">OBLEČENIE</a>
+                    <a class="nav-link" href="#">BRANDS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">DOPLNKY</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ZNAČKY</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link red" href="#">ZĽAVY</a>
+                    <a class="nav-link red" href="#">SALES</a>
                 </li>
             </ul>
             <form class="search-bar d-flex">
-                <input class="form-control me-2" type="search" placeholder="Vyhľadávaj značky, kategórie alebo produkty" aria-label="Search">
-                <button class="btn btn-outline-light" type="submit">Hľadať</button>
+                <input class="form-control me-2" type="search" placeholder="Search products, categories, brands..." aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
             </form>
 
             <ul class="navbar-icons navbar-nav d-flex flex-row">
@@ -74,6 +93,57 @@
         </div>
     </div>
 </nav>
+
+<div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/images/homePageImages/image1.png" alt="Image 1">
+        </div>
+        <div class="carousel-item">
+            <img src="/images/homePageImages/image2.jpg" alt="Image 2">
+        </div>
+        <div class="carousel-item">
+            <img src="/images/homePageImages/image3.jpg" alt="Image 3">
+        </div>
+        <!-- Pridaj ďalšie obrázky ako potrebné -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<footer class="footer bg-dark text-light mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>FOLLOW US</h5>
+                <div>
+                    <a href="#" class="text-decoration-none text-light">Facebook</a><br>
+                    <a href="#" class="text-decoration-none text-light">YouTube</a><br>
+                    <a href="#" class="text-decoration-none text-light">Instagram</a><br>
+                    <a href="#" class="text-decoration-none text-light">Pinterest</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5>INFO & SUPPORT</h5>
+                <div>
+                    <a href="#" class="text-decoration-none text-light">Size tables</a><br>
+                    <a href="#" class="text-decoration-none text-light">Privacy protection</a><br>
+                    <a href="#" class="text-decoration-none text-light">Setting consent/cookies</a><br>
+                    <a href="#" class="text-decoration-none text-light">Business conditions</a><br>
+                    <a href="#" class="text-decoration-none text-light">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
 
 </body>
 </html>
