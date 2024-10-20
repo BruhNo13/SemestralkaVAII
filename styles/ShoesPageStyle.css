@@ -49,10 +49,6 @@ body {
     padding: 0;
 }
 
-
-
-
-
 .product-container {
     display: flex;
     flex-wrap: wrap;
@@ -60,11 +56,11 @@ body {
     margin-top: 20px;
 }
 .product-card {
-    width: calc(33% - 10px); /* Zmenši šírku, aby si udržal medzery */
-    margin-bottom: 20px; /* Medzera medzi kartami */
-    text-align: center; /* Centrovanie textu v kartách */
+    width: calc(33% - 10px);
+    margin-bottom: 20px;
+    text-align: center;
 }
 .product-card img {
-    width: 100%; /* Zabezpečí, že obrázky budú šírku karty */
-    height: auto; /* Automatická výška pre zachovanie pomeru strán */
+    width: 100%;
+    height: auto;
 }

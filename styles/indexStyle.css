@@ -49,38 +49,25 @@ body {
     padding: 0;
 }
 
-/*.image-container {*/
-/*    display: flex;*/
-/*    overflow-x: auto; !* Povoliť horizontálny scroll *!*/
-/*    padding: 20px 0; !* Padding nad a pod obrázkami *!*/
-/*}*/
-/*.image-container img {*/
-/*    flex: 0 0 auto; !* Zabraňuje obrázkom, aby sa prispôsobovali *!*/
-/*    width: 100%; !* Šírka obrázkov *!*/
-/*    max-width: 400px; !* Maximálna šírka obrázkov *!*/
-/*    margin-right: 10px; !* Medzera medzi obrázkami *!*/
-/*}*/
-
 .carousel-item img {
     flex: 0 0 auto;
-    width: 100%; /* Šírka obrázkov na 100% */
-    height: 800px; /* Automatická výška, zachovanie pomeru strán */
+    width: 100%;
+    height: 800px;
     object-fit: cover;
 }
-
 
 .footer {
     padding: 20px 0;
 }
 
 .footer h5 {
-    margin-bottom: 15px; /* Pridá medzeru pod nadpisy */
+    margin-bottom: 15px;
 }
 
 .footer a {
-    color: lightgray; /* Svetlá farba pre odkazy */
+    color: lightgray;
 }
 
 .footer a:hover {
-    color: white; /* Zmena farby odkazu pri hover */
+    color: white;
 }
